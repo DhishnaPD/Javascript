@@ -1,3 +1,2 @@
 1.Write an HTML and JavaScript program that takes a username from an input box and displays a personalized greeting message (like “Hey <username>”) in a heading when the user clicks a button.
 2.Write a JavaScript program that asks the user to enter the radius of a circle and then calculates and displays the circumference using the formula C = 2 × π × r.
-3.random number generator
