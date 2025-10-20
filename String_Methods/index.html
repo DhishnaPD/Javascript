@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    let username="Dhishna PD";
+console.log(username.charAt(0));
+console.log(username.charAt(2));
+console.log(username.indexOf("P"));
+console.log(username.lastIndexOf("D"));
+console.log(username.length);
+username=username.trim();
+console.log(username);
+username=username.toUpperCase();
+console.log(username);
+username=username.toLowerCase();
+console.log(username);
+username=username.repeat(3);
+console.log(username);
+
+let userName="Dhishna PD";
+let result=userName.includes(" ");
+if(result){
+    console.log("cant include '' ");
+}else{
+    console.log("valid username");
+}
+//replaceAll
+let phn="991-77144---994";
+phn=phn.replaceAll("-","$");
+console.log(phn);
+//padStart
+let phn1="44";
+phn1=phn1.padStart(6,"0");
+console.log(phn1);
+let phn2="44";
+phn2=phn2.padEnd(6,"0");
+console.log(phn2);
+</script>
+<script>
+    const fn="dhishna p d";
+    let firstName=fn.slice(0,7);
+    console.log(firstName);
+    let lstName=fn.slice(7,11);
+    console.log(lstName);
+    let lastChar=fn.slice(-1);
+    console.log(lastChar);
+    // indexOf
+    let fullname=firstName.slice(0,fn.indexOf(" "));
+    console.log(fullname);
+    const email="dhishnapd@gmail.com";
+    let unme=email.slice(0,email.indexOf("@"));
+    let extension=email.slice(email.indexOf("@")+1);
+    console.log(unme);
+    console.log(extension);
+</script>
+<script>
+    //method chaining
+    un="dhishna pd";
+   un=un.trim().charAt(0).toUpperCase().repeat(3)+un.trim().slice(2).toLowerCase();
+   console.log(un);
+</script>
+</body>
+</html>
