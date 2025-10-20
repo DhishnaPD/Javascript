@@ -1,0 +1,38 @@
+body{
+    font-size: 20px;
+    line-height:30px;
+    font-family: 'Arial', sans-serif;
+    background-image: url("https://img.freepik.com/free-photo/abstract-digital-grid-black-background_53876-97647.jpg?semt=ais_hybrid&w=740&q=80");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+h1{
+    text-align: center;
+    font-size: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#btncontainer{
+    text-align: center;  
+}
+.btn{
+  text-align: center;  
+  margin-top: 25px;
+}
+button{
+    font-size:17px;
+    padding:10px;
+    cursor: pointer;
+    background-color:aqua;
+    border-radius: 10px;
+    color: rgb(10, 10, 10);
+    text-align: center;
+}
+#cntid{
+    text-align: center;
+    margin-left: 50%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:50px;
+    color:aqua;
+}
