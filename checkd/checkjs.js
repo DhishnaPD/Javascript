@@ -19,3 +19,27 @@ mySubmit.onclick=function(){
         myPr.textContent="You have selected PayPal as your payment method.";
     }
 }
+
+//Ternary Operator
+// condition ? expr1 : expr2
+// condition is true → expr1
+// condition is false → expr2
+let time=13;
+let greeting=time<12?"Good morning":"Good afternoon";
+console.log(greeting);
+ //purchase amount discount
+ let pm=170;
+ let discount=pm>=150?10:0;
+    console.log(`Your discount is: ${pm*(discount/100)}`);
+    console.log(`your purchase amount is$ ${pm} and total amount is $${pm-pm*(discount/100)}`);
+
+const pmbtn = document.getElementById("pmbtn");
+    const result = document.getElementById("result");
+ pmbtn.onclick=function(){
+    let pm3=Number(document.getElementById("pm1").value);
+    let discount2=pm3>=150?10:0;
+    discountedamnt=pm3*(discount2/100);
+    let total=pm3-discountedamnt;
+    result.textContent=`Your purchase amount is: ${pm3} and discount amount is ${discountedamnt}total amount is ${total}`;
+    console.log(`your purchase amount is$ ${pm3} and total amount is $${total}`);
+ }
